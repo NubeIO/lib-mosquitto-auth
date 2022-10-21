@@ -7,7 +7,7 @@ import (
 
 func main() {
 	err := mosquitto.WriteConfig(&mosquitto.Config{
-		Path: "mosquitto/mosquitto.conf",
+		Path: "mosquitto/mosquitto.conf.test",
 		Security: mosquitto.Security{
 			SSL:                false,
 			ClientVerification: false,
